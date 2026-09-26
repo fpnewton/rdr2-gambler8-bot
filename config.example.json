@@ -1,0 +1,20 @@
+{
+  "monitor": 1,
+  "match_threshold": 0.75,
+  "poll_interval_seconds": 0.15,
+  "input_cooldown_seconds": 1.15,
+  "round_end_grace_seconds": 2.5,
+  "diagnostic_interval_seconds": 2.0,
+  "card_change_threshold": 8.0,
+  "actions": {
+    "hit": "h",
+    "stand": "s",
+    "continue": "enter",
+    "decline_insurance": "f"
+  },
+  "templates": {
+    "player_turn": "templates/player_turn.png",
+    "continue": "templates/continue.png",
+    "insurance": "templates/insurance.png"
+  }
+}
